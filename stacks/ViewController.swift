@@ -55,24 +55,11 @@ class ViewController: UIViewController {
     
 
     @IBAction func reset(sender: UIButton) {
-        spaceOne.backgroundColor=UIColor.grayColor()
-        spaceOne.enabled=true;
-        spaceTwo.backgroundColor=UIColor.grayColor()
-        spaceTwo.enabled=true;
-        spaceThree.backgroundColor=UIColor.grayColor()
-        spaceThree.enabled=true;
-        spaceFour.backgroundColor=UIColor.grayColor()
-        spaceFour.enabled=true;
-        spaceFive.backgroundColor=UIColor.grayColor()
-        spaceFive.enabled=true;
-        spaceSix.backgroundColor=UIColor.grayColor()
-        spaceSix.enabled=true;
-        spaceSeven.backgroundColor=UIColor.grayColor()
-        spaceSeven.enabled=true;
-        spaceEight.backgroundColor=UIColor.grayColor()
-        spaceEight.enabled=true;
-        spaceNine.backgroundColor=UIColor.grayColor()
-        spaceNine.enabled=true;
+        for button in allButtons {
+            button.backgroundColor = UIColor.grayColor()
+            button.enabled = true
+        }
+      
         turns=0
         onex = 0
         twox = 0
