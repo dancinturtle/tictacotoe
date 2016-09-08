@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					956447371CDABE270099C43F = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 93DU6VN4H3;
 					};
 					9564474B1CDABE270099C43F = {
 						CreatedOnToolsVersion = 7.3;
@@ -401,10 +402,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = stacks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.stacks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +416,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = stacks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.stacks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +491,7 @@
 				956447621CDABE270099C43F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		956447631CDABE270099C43F /* Build configuration list for PBXNativeTarget "stacksTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +500,7 @@
 				956447651CDABE270099C43F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		956447661CDABE270099C43F /* Build configuration list for PBXNativeTarget "stacksUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +509,7 @@
 				956447681CDABE270099C43F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
